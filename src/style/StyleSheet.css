@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.landingButtons {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    text-align: right;
+}
+.buttonMiddle {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+button.landingButtons {
+    padding: 15px;
+    background: rgb(43, 43, 44);
+    border: none;
+    font-weight: bold;
+    color: rgb(82, 167, 223);
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 150px;
+    outline-style: solid;
+    outline-color: rgba(82, 167, 223);
+    outline-width: 1px;
+    outline-offset: -2px;
+    transition-timing-function: ease-out;
+    transition-duration: 0.21s;
+}
+button.landingButtons:hover {
+    padding: 14px;
+    background: rgb(82, 167, 223);
+    color: rgb(43, 43, 44);
+    outline-color: rgba(82, 167, 223);
+    outline-width: 1px;
+    outline-offset: 2px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.21s;
+    font-size: 15px;
+    margin-top: -3px;
+    margin-bottom: -2px;
+}
