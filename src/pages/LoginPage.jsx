@@ -16,6 +16,7 @@ function login() {
                 </div>
             </div>
             <div class="regPageBG" />
+            <div class="regPageBGIMG" />
         </div>
     );
 }
