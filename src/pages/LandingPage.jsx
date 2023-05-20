@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import '../style/StyleSheet.css';
 
-function landing() {
+function Landing() {
     return (
         <>
             <div class="landingButtons">
@@ -21,4 +21,4 @@ function landing() {
     );
 }
 
-export default landing;
+export default Landing;
