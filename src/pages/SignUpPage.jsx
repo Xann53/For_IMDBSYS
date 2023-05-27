@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import '../style/StyleSheet.css';
-import { useState } from 'react';
+import { React, useState } from 'react';
 import { db } from '../firebase-config';
 import { collection, addDoc } from "firebase/firestore";
 
